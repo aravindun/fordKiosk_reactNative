@@ -17,7 +17,7 @@ class HomeScreen extends React.Component {
 class DetailsScreen extends React.Component {
     render() {
         return (
-                <View style={{ flex: 1, backgroundColor: 'blue', alignItems: 'center', justifyContent: 'center' }}>
+                <View style={{ flex: 1, backgroundColor: 'white', alignItems: 'center', justifyContent: 'center' }}>
                 <TextInput style={{ color: 'black', fontSize:15, width:200, height: 50 }} placeholder = "Enter Username" maxLength = {20}/>
                 <TextInput style={{ color: 'black', fontSize:15, width:200, height: 50 }} placeholder = "Enter Password" secureTextEntry={true} maxLength = {20}/>
                 <Button
